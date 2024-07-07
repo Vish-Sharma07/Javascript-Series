@@ -59,3 +59,35 @@ user[1].email;
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 console.log(tinderUser.hasOwnProperty('isLogged'));
+
+const course = {
+    coursename: "JS in Hindi",
+    courseprice: "999",
+    courseInstructor: "Vishakha"
+}
+
+// course.courseInstructor // This is the old method and need to write same code multiple times
+
+// Object de-structure
+
+const { courseInstructor: instructor } = course
+
+// console.log(courseInstructor);
+// console.log(instructor);
+
+// JSON API
+
+// In form of objects 
+
+// {
+//     "name": "Vishakha",
+//     "coursename": "JS o=in Hindi",
+//     "price": "free"
+// }
+
+// API's in form of Arrays
+
+{
+    {},
+    {}.
+    {}
